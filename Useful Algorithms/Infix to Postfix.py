@@ -18,3 +18,9 @@ def brackets(terms):
 
 def expr_eval(expression):
     return expression[0] + expression[2] + expression[1]
+
+if __name__ == "__main__":
+    print(to_postfix('2+7*5'))
+    print(to_postfix('3*3/(7+1)'))
+    print(to_postfix('5+(6-2)*9+3^(7-1)'))
+    print(to_postfix('(5-4-1)+9/5/2-7/1/7'))

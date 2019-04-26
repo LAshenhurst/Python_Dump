@@ -1,4 +1,4 @@
-from eulerlib import *
+from eulerlib import sieve_of_eratosthenes
 
 def goldbach(even_number):
     primes = sieve_of_eratosthenes(even_number)
@@ -9,4 +9,5 @@ def goldbach(even_number):
                 result = (primes[x], primes[y])
     return result
 
-print(goldbach(222))
+if __name__ == "__main__":
+    print(goldbach(222))

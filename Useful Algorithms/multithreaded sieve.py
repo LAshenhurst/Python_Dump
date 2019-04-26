@@ -25,7 +25,6 @@ def sieve(n):
     index = 1
     pool = Pool(processes=4)
     to_subtract = []
-    test_times = []
     while True:
         to_subtract.clear()
         # All multiples of our latest prime, excluding that prime

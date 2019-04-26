@@ -24,4 +24,5 @@ def diff_finder(found, n):
 
 def gen_pents(n): return [int((3*(n**2) - n) / 2), int((3*((n*-1)**2)-(n*-1))/2)]
 
-for x in range(0, 100): print(exp_sum(x))
+if __name__ == "__main__":
+    for x in range(0, 100): print(exp_sum(x))
