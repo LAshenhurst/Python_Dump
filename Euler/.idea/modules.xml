@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CodeWars/.idea/CodeWars.iml" filepath="$PROJECT_DIR$/../CodeWars/.idea/CodeWars.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/MathsChallenge/.idea/MathsChallenge.iml" filepath="$USER_HOME$/PycharmProjects/MathsChallenge/.idea/MathsChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyCharmTest.iml" filepath="$PROJECT_DIR$/.idea/PyCharmTest.iml" />
+    </modules>
+  </component>
+</project>
